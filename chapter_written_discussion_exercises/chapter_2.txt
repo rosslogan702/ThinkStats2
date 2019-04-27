@@ -1,0 +1,60 @@
+Think Stats - Chapter 2 Written Discussion Exercises
+
+Exercise 2-1 
+
+Question:
+Based on the results in this chapter, supposed you were asked to summarize what you learned about whether first babies arrive late.
+
+Which summary statistics would you use if you wanted to get a story on the evening news? Which ones would you use if you wanted to reassure an axious patient?
+
+Finally, image that you are Cecil Adams, author of "The Straight Dope" (http://straightdope.com), and your job is to answer the question, "Do first babies arrive late?" Write a paragraph that uses the results in this chapter to answer the question clearly, precisely and honestly.
+
+Answer:
+
+= = = = = = = = = = = = = =
+Story on the Evening News
+= = = = = = = = = = = = = =
+
+If I were aiming to get a story on the evening news, the summary statistics that I would use would be the ones that would suggest that first babies do indeed arrive late.
+
+The mean pregnancy length for first babies was calculated at 38.601; for other babies it is 38.523. 
+This would seem to indicate that typically the first pregnancy length is likely to be longer than for other babies.
+From the perspective of writing a headline for a news story, it would be factually correct to say that the mean pregnancy length for first babies than other babies (2nd, 3rd, 4th) is longer.
+However this approach fails to look into what this difference means and just takes the numbers at face value.
+
+= = = = = = = = = = = = = = = =
+Re-assuring an Anxious Patient
+= = = = = = = = = = = = = = = =
+
+If I were re-assuring an anxious patient I would report that the mean value of the pregnancy length for first babies is 38.601 and the mean pregnancy length for other babies is 38.523.
+
+This difference is 0.078 weeks, which works out to 13 hours. 
+
+Also as a fraction of the typical pregnancy length this difference is about 0.2%. 
+
+In practical terms, the 13 hours difference is probably more relatable to the patient in that this gives them a quantifiable number of 13 hours which isn't too much longer than the other babies mean pregnancy length. 
+
+In addition, when you consider that a typical pregnancy length calculated from the dataset is 38.6 weeks, 13 hours extra is small compared to the overall pregnancy length. 
+
+= = = = = = = = = = = = = = = =
+"The Straight Dope Version"
+= = = = = = = = = = = = = = = =
+
+If I were writing a concise article for the straight dope which was clear, precise and honest I would indicate the following:
+
+- The mean value of pregnancy length for first babies is slightly longer than for other babies by 0.078 weeks which works out to 13 hours.
+- From the typical pregnancy length this difference is around 0.2%
+- Calculating cohen's d statistic (comparing the difference between the groups to the variability within the groups), we get 0.029 standard deviations
+	- This is a small difference and to put that in perspective the d statistic for difference between men and women's heights is 1.7
+
+The overall advice in the chapter seems to be if you are trying to demonstrate the important of an effect, you might choose summary statistics that emphasise differences. 
+
+Where as if you are trying to re-assure patient you might choose statistics that put the differences in contexts and make them relatable to the patient to re-assure them.
+
+Exercise 2-2
+
+See the notebook chap02ex.ipynb
+
+Exercises 2-3/2-4
+
+See the notebook.
